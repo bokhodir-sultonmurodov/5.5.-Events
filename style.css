@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.create {
+  width: 250px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form__input,
+.form__textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form__textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form__button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form__button:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card__profession {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.card__bio {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .create {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+.form-controll{
+  padding: 0 30px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 30px;
+}
+.cardd{
+  padding: 16px;
+  width: 300px;
+  background-color: #b5ffb5;
+  border-radius: 16px 16px 16px 0;
+  font-family: sans-serif;
+}
+.card span{
+  display: block;
+  text-align: right;
+  font-size: 12px;
+}
+.cardd.another{
+  margin-left: 200px;
+  border-radius: 16px 16px 0 16px ;
+  background-color: #dbedff;
+}
