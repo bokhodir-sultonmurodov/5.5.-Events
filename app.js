@@ -1,11 +1,11 @@
-// 1. Elementlarni olish
+
 const nameInput = document.getElementById('nameInput');
 const professionInput = document.getElementById('professionInput');
 const bioInput = document.getElementById('bioInput');
 const createBtn = document.getElementById('createBtn');
 const cardContainer = document.getElementById('cardContainer');
 
-// 2. Event listener
+
 createBtn.addEventListener('click', () => {
   const name = nameInput.value.trim();
   const profession = professionInput.value.trim();
